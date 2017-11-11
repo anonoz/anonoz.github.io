@@ -2,24 +2,12 @@
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2017-11-10 17:39:33 +0800
-categories: jekyll update
+categories: announcements
+excerpt: A itny one
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+I am a terribly lazy blogger. I rarely update my blog. Maybe a change of scenery will help.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Several reasons are driving me to give Jekyll a test drive:
+- It seems simpler and easier to use than Wordpress.
+- I would like more controls and customization options over my own homepage, rather than giving up control to WP themes.
+- I am trying to have a platform-agnostic way to edit, render, and generate resume. It seems like a simple markdown page that uses CSS print media query will work fine.
