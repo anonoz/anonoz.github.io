@@ -9,7 +9,7 @@ categories: rant
 
 The blog post is written in 2013, when I was really upset with my life in UCTI/APU. It was a terrible, terrible university for anyone to be in. After dropping out, I have spent 8 months working in a digital agency as web developer. I have learned a lot there, and I have no regret dropping out of university.
 
-So what made me went to MMU and get a degree then? Statutory requirement by Singapore government. So here's the deal - this blog post applies to you if you do no intend to work outside Malaysia (my readers are mostly Malaysians I presume), it's easy to get a job without any certification in Kuala Lumpur. Have a solid portfolio of your pet projects, freelance works and you are good to go.
+So what made me went to MMU and get a degree then? Statutory requirement by Singapore government. So here's the deal - this blog post applies to you if you do not intend to work outside Malaysia (my readers are mostly Malaysians I presume), it's easy to get a job without any certification in Kuala Lumpur. Have a solid portfolio of your pet projects, freelance works and you are good to go.
 
 If you did end up earning a degree, just go work in other countries, whether it's Singapore, Hong Kong, Japan, United States... come back later if you want to. But don't waste the 4-5 years you have spent in an education institution that could have been better spent elsewhere.
 
