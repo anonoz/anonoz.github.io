@@ -4,4 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I grew up in Kuala Lumpur, Malaysia. But now I am working as software engineer at Prime Technologies, currently based in Singapore.
+I come from Kuala Lumpur, Malaysia. 
+
+Currently working as software engineer (main Ruby on Rails and some DevOps) in Prime Technologies Pte Ltd (Singapore). 
