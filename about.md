@@ -4,6 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I come from Kuala Lumpur, Malaysia. 
+I come from Kuala Lumpur, Malaysia.
 
-Currently working as software engineer (main Ruby on Rails and some DevOps) in Prime Technologies Pte Ltd (Singapore). 
+Currently working a software engineer (mainly Ruby on Rails and some DevOps) in Prime Technologies Pte Ltd (Singapore).
+
+[Resume](https://www.anonoz.com/cv.pdf)
