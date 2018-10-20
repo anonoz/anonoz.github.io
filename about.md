@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-I come from Kuala Lumpur, Malaysia.
+I am a software engineer (mainly Ruby on Rails and some DevOps) at Prime Technologies Pte Ltd (Singapore). Previously in Talenox and TBG Interactive (now Gushcloud Malaysia).
 
-Currently working a software engineer (mainly Ruby on Rails and some DevOps) in Prime Technologies Pte Ltd (Singapore).
+I grew up in KL, and I graduated with computer science degree from Multimedia University, Cyberjaya, Malaysia.
 
 [Resume](https://www.anonoz.com/cv.pdf)
