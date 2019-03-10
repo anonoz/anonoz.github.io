@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a software engineer (mainly Ruby on Rails and some DevOps) at Prime Technologies Pte Ltd (Singapore). Previously in Talenox and TBG Interactive (now Gushcloud Malaysia).
+I am a software engineer (mainly Ruby on Rails and some DevOps) at Talenox. I am currently based in Kuala Lumpur, Malaysia. Previously I worked at Prime Technologies and Gushcloud Malaysia.
 
-I grew up in KL, and I graduated with computer science degree from Multimedia University, Cyberjaya, Malaysia.
-
-[CV](https://www.anonoz.com/cv.pdf)
+- [Resume (English)](https://www.anonoz.com/cv.pdf)
+- [Resume (Chinese)/中文简历](https://www.anonoz.com/cv-chinese.pdf)
