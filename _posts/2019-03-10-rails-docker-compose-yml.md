@@ -5,27 +5,6 @@ date: 2019-03-10
 category: tech
 ---
 
-<!--
-```
-outline:
-1. explain difference docker compose and docker swarm for dev and prod
-2. why most blogs and tutorials incl docker own doc is wrong - gems and node_modules change often and shouldnt be put inside dockerfile - coz dockerfile is immutable
-3. use volumes for ruby and js libraries
-4. store local secrets for private gem fetching
-
-bad examples:
-1. https://docs.docker.com/compose/rails/
-2. https://blog.codeship.com/running-rails-development-environment-docker/
-3. https://semaphoreci.com/community/tutorials/dockerizing-a-ruby-on-rails-application
-4. https://nickjanetakis.com/blog/dockerize-a-rails-5-postgres-redis-sidekiq-action-cable-app-with-docker-compose
-5. https://auth0.com/blog/ruby-on-rails-killer-workflow-with-docker-part-1/
-6. 
-
-good examples:
-1. 
-```
--->
-
 For past 12 months, we have been containerizing Rails apps for our projects, because we needed certain binaries like GnuPG 1, and Docker Swarm's container scheduling for the high availability and scalability offered. To close the dev-prod parity, we develop our app inside Docker container using Docker Compose, and the Dockerfile we use share the same base image and system binaries as the one used for production.
 
 It wasn't easy starting out here.
