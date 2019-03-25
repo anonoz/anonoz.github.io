@@ -1,11 +1,9 @@
 ---
 layout: post
-title: Dockerfile for Rails app in production and other lessons learned
+title: Guide to write proper Dockerfile for production Rails app
 date: 2018-05-01
 category: tech
 ---
-
-**For Singapore residents:** [Sign up with Best Electricity](https://bestelectricity.com.sg/?utm_source=anonoz&utm_medium=social&utm_campaign=anonoz-blog-post) and cut down your electricity bills!
 
 _tl;dr: Scroll all the way down for Dockerfile._
 
