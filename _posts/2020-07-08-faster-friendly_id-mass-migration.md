@@ -7,6 +7,13 @@ category: tech
 
 **Update:** Thanks to the comments in the [r/rails](https://www.reddit.com/r/rails/comments/hndvj5/how_to_make_friendly_id_backfilling_migration), I took some of the ideas, implemented them to make this runs faster. Before this, it took about an hour to backfill the column. After using `find_in_batches` and `update_columns`, it now takes half the time it took before. Posting on reddit is a good way to source more good ideas indeed!
 
+**Update 2:** At the end I decided not to put backfilling in db migration. I have divided the friendly_id rollout into few phases:
+
+1. Implement `#slug_candidate` for the model classes, with `ActiveRecord::Base#slug_candidate` defined as `SecureRandom.uuid`;
+2. Create migration to add `slug` column;
+3. A rake task to backfill;
+4. After all these are done, another migration to add index to incur less performance penalty on backfilling.
+
 ____
 <br>
 I am currently working on integrating friendly_id gem into some of the models in [Talenox](https://www.talenox.com/?utm_source=anonozblog&utm_medium=blog&utm_campaign=friendly-id-post). Basically, it makes our in app URLs look nicer with human and company names in front, instead of just incremental primary key IDs. Oh boy... `Employee.all.each(&:save)` is fucking slow in production.
