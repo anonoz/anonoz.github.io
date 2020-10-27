@@ -113,8 +113,7 @@ blocks:
                   rbenv install;
                 fi
             - sudo mkdir -p /project-mount
-       date: 2020-10-26
-     - sudo chown -R $USER:$USER /project-mount
+            - sudo chown -R $USER:$USER /project-mount
             - cd ~
             - shopt -s dotglob; mv ~/reponame/* /project-mount
             - cd /project-mount
