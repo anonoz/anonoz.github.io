@@ -5,7 +5,7 @@ date: 2020-04-24
 category: tech
 ---
 
-Today routine `docker build` in our CI got stuck.
+Today our routine `docker build` in our CI got stuck.
 
 ```
 Setting up tzdata (2019c-3ubuntu1) ...
@@ -49,3 +49,5 @@ Just change your base image down to an older stable version.
 I don't go for `ENV DEBIAN_FRONTEND=noninteractive` because that's not an env var I wanna set permanently for the container image.
 
 Anyway that's just a quick fix, I hope they patch it soon!
+
+P/S: It seems like this post is getting 200 clicks per day, if you have spare change, please consider donating to [United Nations' World Food Programme](https://sharethemeal.org/donate) to help people with poor food security. Pay it forward!
