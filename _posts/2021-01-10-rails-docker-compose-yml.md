@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "How to use Docker Compose for Rails development: Do not bundle install in Dockerfile.dev"
-date: 2019-03-10
+title: "How to docker-compose for Rails development: Don't bundle install in Dockerfile"
+date: 2021-01-10
 category: tech
+redirect_from:
+  - /tech/2019/03/10/rails-docker-compose-yml.html
 ---
+
+__First published in 2019, updated in 2021.__
 
 For past 12 months, we have been containerizing Rails apps for our projects, because we needed certain binaries like GnuPG 1, and Docker Swarm's container scheduling for the high availability and scalability offered. To close the dev-prod parity, we develop our app inside Docker container using Docker Compose, and the Dockerfile we use share the same base image and system binaries as the one used for production.
 
-It wasn't easy starting out here.
-
-There are plenty of [bad](https://blog.codeship.com/running-rails-development-environment-docker/) [examples](https://semaphoreci.com/community/tutorials/dockerizing-a-ruby-on-rails-application) [being](https://auth0.com/blog/ruby-on-rails-killer-workflow-with-docker-part-1/) [published](https://nickjanetakis.com/blog/dockerize-a-rails-5-postgres-redis-sidekiq-action-cable-app-with-docker-compose) online, including [Docker's own documentation](https://docs.docker.com/compose/rails/), and I suspect many of them were simply doing blog SEO marketing for their own products, without actually using Docker Compose for the purpose of developing Rails apps on daily basis.
-
-There are 2 problems:
+It wasn't easy starting out here. There are 2 problems:
 
 1. Not using separate Dockerfiles for development and production.
 2. `bundle install` inside Dockerfile for development.
@@ -134,7 +134,7 @@ You can then have your `Dockerfile.dev` sans `bundle install`:
 
 ```docker
 # Dockerfile.dev
-FROM ruby:2.4.5-alpine as builder
+FROM ruby:2.6-alpine as builder
 
 RUN apk add --no-cache \
   build-base \
