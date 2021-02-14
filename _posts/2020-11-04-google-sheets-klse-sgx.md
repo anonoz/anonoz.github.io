@@ -23,10 +23,10 @@ Just remember to replace the stock code with whatever you want, the part right b
 
 ### Gold Prices
 
-First, install ImportJSON functions from [https://github.com/bradjasper/ImportJSON](https://github.com/bradjasper/ImportJSON) into your Google Sheets script editor.
-
-Then, you can use this formula to fetch USD per oz:
+You can use this formula to approximate USD per oz:
 
 ```
-=index(ImportJSON("https://data-asg.goldprice.org/dbXRates/USD", "/items"), 2, 2)
+=GOOGLEFINANCE("GLD", "price")*10/POW(0.996,YEARFRAC(TODAY(), "18/11/2004", 1))
 ```
+
+GLD is the ticker for SPDR gold trust ETF, the largest one out there. They charge 0.4% per annum since inception.
