@@ -7,6 +7,8 @@ image:
   path: /assets/images/vaccine-certificate/fakecert-dylan.jpg
 ---
 
+Update: They have fixed this for iOS on 23rd July 2021, 1 week after the publication of this blog post.
+
 In Malaysia, we use MySejahtera to perform contact tracing, vaccination appointments, and vaccine certification. Malaysia government has also provided another app - Vaccine Certificate Verifier - to allow the public to scan the vaccine certificate QR code in MySej app. This app will be used a lot when enough people are vaccinated and [shops reopen](https://www.thestar.com.my/news/nation/2021/07/15/pm-consider-relaxing-movement-control-for-those-who-have-received-two-covid-19-vaccine-doses).
 
 I show you why this app is useless and harmful in its present form, as of 15th July 2021.
