@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Malaysia Vaccine Certificate Verifier is Useless"
+title: "Malaysia Vaccine Certificate Verifier was Useless"
 date: 2021-07-15
 category: tech
 image:
