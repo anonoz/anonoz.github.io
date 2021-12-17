@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to install Svelte and Tailwindcss with jsbundling and cssbundling in Rails without Webpack"
+title: "How to install Svelte and Tailwindcss in Rails with jsbundling and cssbundling"
 date: 2021-12-11
 category: tech
 image:
