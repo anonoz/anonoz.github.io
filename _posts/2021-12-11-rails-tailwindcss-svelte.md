@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to use Svelte & Tailwindcss with jsbundling and cssbundling in Rails 6 without Webpack"
+title: "How to install Svelte and Tailwindcss with jsbundling and cssbundling in Rails without Webpack"
 date: 2021-12-11
 category: tech
 image:
@@ -161,7 +161,7 @@ Alright, now we need to test if we can build Svelte components. You are free to 
 
 Save this in `app/javascript/svelte/DemoSvelteComponent.svelte`
 
-```
+```html
 <script>
   import {
     onMount
@@ -181,7 +181,7 @@ Save this in `app/javascript/svelte/DemoSvelteComponent.svelte`
 
 Save this in `app/javascript/application.js`:
 
-```
+```js
 import DemoSvelteComponent from './svelte/DemoSvelteComponent.svelte'
 
 window.addEventListener('load', () => {
