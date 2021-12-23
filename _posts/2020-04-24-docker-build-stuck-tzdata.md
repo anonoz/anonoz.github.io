@@ -40,9 +40,9 @@ Just change your base image down to an older stable version.
 
 ```diff
 -RUN apt-get update && \
-+RUN DEBIAN_FRONTEND=noninteractive \
++RUN apt-get update && \
++    DEBIAN_FRONTEND=noninteractive \
 +    TZ=Asia/Singapore \
-+    apt-get update && 
      apt-get install -y \         
 ```
 
