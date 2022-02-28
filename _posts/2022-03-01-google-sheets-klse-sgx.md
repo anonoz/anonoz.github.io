@@ -1,16 +1,18 @@
 ---
 layout: page
-title: "How to retrieve KLSE, SGX, and gold prices in Google Sheets (Updated for 2020)"
-date: 2020-11-04
-category: tech
+title: "How to retrieve KLSE, SGX, and gold prices in Google Sheets (Updated for 2022Q1)"
+date: 2022-03-01
+category: finance
 ---
 
 For Bursa Malaysia (KLSE) and Singapore Exchange (SGX), we can scrape from [i3investor](https://klse.i3investor.com/index.jsp) websites. This is how.
 
-This is the formula for KLSE:
+### KLSE & SGX
+
+This is the new formula for KLSE after the site revamp:
 
 ```
-=index(ImportXML("https://klse.i3investor.com/servlets/stk/5099.jsp", "//td[contains(@class, 'big16')]"), 1, 1)
+=index(ImportXML("https://klse.i3investor.com/web/stock/overview/5176?randomstring", "//div[contains(@id, 'stock-price-info')]//p[2]"), 1, 1)
 ```
 
 And this is for SGX:
