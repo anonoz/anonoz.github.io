@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "How to retrieve KLSE, SGX, and gold prices in Google Sheets (Updated for 2022Q1)"
 date: 2022-02-28
 category: finance
