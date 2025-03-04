@@ -1,24 +1,24 @@
 ---
 layout: post
-title: "How to retrieve KLSE, SGX, and gold prices in Google Sheets (Updated for 2022Q1)"
+title: "How to retrieve KLSE, SGX, and gold prices in Google Sheets (Updated for 2025Q1)"
 date: 2022-02-28
 category: finance
 ---
 
-For Bursa Malaysia (KLSE) and Singapore Exchange (SGX), we can scrape from [i3investor](https://klse.i3investor.com/index.jsp) websites. This is how.
+For Bursa Malaysia (KLSE) and Singapore Exchange (SGX), we can scrape from some other websites websites like growbeansprout and klsescreener. This is how.
 
 ### KLSE & SGX
 
 This is the new formula for KLSE after the site revamp:
 
 ```
-=index(ImportXML("https://klse.i3investor.com/web/stock/overview/5176?randomstring", "//div[contains(@id, 'stock-price-info')]//p[2]"), 1, 1)
+=IMPORTXML("https://www.klsescreener.com/v2/stocks/view/5176?utm_source="&Settings!B4, "//*[@id='price']")
 ```
 
-And this is for SGX:
+And this is for SGX, assuming column A contains your stock code:
 
 ```
-=index(ImportXML("https://sgx.i3investor.com/servlets/stk/g3b.jsp", "//td[contains(@class, 'big16')]"), 1, 1)
+=IMPORTXML("https://growbeansprout.com/quote/G3B.SI/", "/html/body/div[1]/main/div[1]/div/div[1]/div[1]/section/div[2]/p[1]")
 ```
 
 Just remember to replace the stock code with whatever you want, the part right before `.jsp`.
@@ -32,3 +32,7 @@ You can use this formula to approximate USD per oz:
 ```
 
 GLD is the ticker for SPDR gold trust ETF, the largest one out there. They charge 0.4% per annum since inception.
+
+### Changelogs
+
+2025: i3investor started blocking bots, so I switched to use other websites suggested by ChatGPT.
